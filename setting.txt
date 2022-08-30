@@ -1,0 +1,33 @@
+1. node.js 설치
+
+2. 환경변수 설정 (윈도우)
+
+3. NPM을 이용하여 Vue 설치
+ $ npm install vue@next
+
+4-1. Vue CLI 설치
+ $ npm install -g @vue/cli
+ $ vue upgrade --next <-- 얘는 뭐하는 코드인지 모르겠음 Vue3로 업데이트 하는거같음
+ $ vue create <project-name>
+    ? Please pick a preset: Manually select features
+    ? Check the features needed for your project: TS, Router, Vuex, Linter
+    ? Choose a version of Vue.js that you want to start the project with 3.x
+    ? Use class-style component syntax? Yes
+    ? Use Babel alongside TypeScript (required for modern mode, auto-detected polyfills, transpiling JSX)? No
+    ? Use history mode for router`? (Requires proper server setup for index fallback in production) Yes
+    ? Pick a linter / formatter config: Prettier
+    ? Pick additional lint features: Lint on save
+    ? Where do you prefer placing config for Babel, ESLint, etc.? In package.json
+    ? Save this as a preset for future projects? (y/N) N
+ $ cd <project-name>
+ $ npm install
+ $ npm run serve
+
+4-2. Vite를 이용하여 프로젝트 생성
+ $ npm init vite-app <project-name>
+ $ cd <project-name>
+ $ npm install
+ $ npm run dev
+
+
+
